@@ -139,17 +139,15 @@ nav a {
 }
 .about{
     width: 100vw;
-    height: 28.888125rem;
+    height: 20rem;
     background-color: #feffef;
     display: flex;
+    padding : 2.5rem 0.5rem;
 }
 .about img{
     width:46.225rem;
-    height: 22.6381rem;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-    padding-left: 1rem;
-    display: flex;
+    height: 18.80rem;
+    border-radius: 1rem;
 }
 .content h1{
     font-family: "Titillium Web", sans-serif;
@@ -219,6 +217,7 @@ nav a {
 .pgcourses{
     display: flex;
     justify-content: space-evenly;
+    background-color: #fff;
 }
 .pgcourses div{
     width: 26rem;
@@ -228,11 +227,11 @@ nav a {
     background-color: #f5f5f5;
     text-align: center;
     border: #020101;
-    box-shadow: 1px 5px 1.5rem #a2a2a2;
+    box-shadow: 1px 5px 1rem #a2a2a2;
 }
 
 .pgcourses div:hover {
-    box-shadow: 1px 5px 3rem #a2a2a2;
+    box-shadow: 1px 5px 2rem #a2a2a2;
 }
 
 .pgcourses img{
@@ -255,18 +254,20 @@ nav a {
     color: #7a7a7a;
 }
 .pgcourses h3{
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     color: #3a3a3a;
     font-size: 1.5625rem;
     font-weight: 500;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .pgcourses button{
-    width: 28rem;
-    height: 2rem;
+    width: 30rem;
+    height: 2.5rem;
     background-color: #f60;
     border: none;
     color: #fff;
+    position: relative;
+    left : -2rem;
 }
 .pgcourses button:hover{
     opacity: 0.7;
@@ -275,7 +276,258 @@ nav a {
     padding-left: 10rem;
     padding-right: 12rem;
 }
+.ug{
+    font-family: "Titillium Web", sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #013b63;
+    margin: 0%;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.ugcourses1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 27.75rem;
+    width: 70%;
+    margin-left: 12rem;
+}
+.ugcourses1 div{
+    width: 35.625rem;
+    height: 27.75rem;
+    padding: 0.625rem;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+.ugcourses1 img{
+    width: 25rem;
+    height: 15.625rem;
+}
+.ugcourses1 h4{
+    font-size: 1.25rem;
+    margin: 0;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.ugcourses1 p{
+    color: #7a7a7a;
+}
+.ugcourses1 h3{
+    padding-top: 1rem;
+    margin: 0;
+    color: #3a3a3a;
+    font-size: 1.5625rem;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mid{
+    background-color:#f5f5f5;
+}
+.ugcourses2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 27.75rem;
+    width: 70%;
+    margin-left: 12rem;
+    padding-top: 2rem;
+}
+.ugcourses2 div{
+    width: 35.625rem;
+    height: 27.75rem;
+    padding: 0.625rem;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+.ugcourses2 img{
+    width: 25rem;
+    height: 15.625rem;
+}
+.ugcourses2 h4{
+    font-size: 1.25rem;
+    margin: 0;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.ugcourses2 p{
+    color: #7a7a7a;
+}
+.ugcourses2 h3{
+    color: #3a3a3a;
+    margin: 0;
+    font-size: 1.5625rem;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.recruterscmrit{
+    font-family: "Titillium Web", sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #013b63;
+    margin: 0;
+}
+.recruters{
+    width: 100vw;
+    background-color: #f5f5f5;
+    padding-bottom: 1rem;
+}
+.companies{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+.virtualtour{
+    width: 100vw;
+    height: 22.3359375rem;
+    display: flex;
+    padding-left: 11rem;
+    background-color: #e7f5ff;
+}
+.virtualtour div{
+    width: 35.625rem;
+    height: 22.3359375rem;
+}
+.video{
+    padding-top: 2rem;
+}
+.virtualtour h1{
+    color: #2d2e2f;
+    font-size: 3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding-left: 9rem;
+    padding-top: 0.75rem;
+    font-weight: 620;
+}
 
+.contactdetails{
+    background-color: #073b5e;
+    width: 100%;
+    height: 16.9375rem;
+    padding-top: 2.5rem;
+    padding-bottom: 0.9375rem;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+}
+
+.contactdetails h4 {
+    margin : 0;
+}
+
+.phone {
+    height : 15.68rem;
+    width : 15.68rem;
+    display : flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.phone a i {
+    margin-right: 1rem;
+}
+
+.contactdetails div {
+    display : flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding : 0.625rem;
+}
+
+
+
+.contactdetails a {
+    margin-top: 1rem;
+}
+.information{
+    color: white;
+    font-size: 1.25rem;
+    height : 15.68rem;
+    width : 10.933rem;
+}
+.login{
+    color: white;
+    font-size: 1.25rem;
+    height : 15.68rem;
+    width : 11.06rem;
+}
+.contact{
+    color: white;
+    font-size: 1.25rem;
+    height : 15.68rem;
+    width : 11.45rem;
+}
+.socialmedia{
+    color: #f60;
+    font-size: 1.25rem;
+    height : 15.68rem;
+    width : 15.66rem;
+
+}
+
+.socialmedia a {
+    display : flex;
+    align-items: center;
+}
+
+.socialmedia i {
+    font-size: 2.1875rem;
+    color : #f60;
+}
+
+.socialmedia span {
+    width : 2.734rem;
+    height : 2.1875rem;
+    margin-right : 0.5rem;
+}
+
+.copyright {
+    height : 3.165rem;
+    width : 100%;
+    padding : 0.625rem 0;
+    background-color: #12374f;
+    display: flex;
+    align-items: flex-end;
+}
+
+.copyright span {
+    height : 1.5rem;
+    font-size: 1.125rem;
+    color : #fff;
+    margin-left : 12rem;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.copyright a {
+    font-size: 1.125rem;
+    color : #f60;
+}
+.map{
+    width: 100%;
+    height: 18.75rem;
+    background: url("./asserts/map.png");
+}
+
+.map a{
+    width : 9rem;
+    height : 1.93rem;
+    color : #1a73e8;
+    background-color: #fff;
+    padding : 0.0625rem;
+    margin : 1rem 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map a:hover {
+    text-decoration: underline;
+}
 
 /******************************************************Responsivness*************************************************/
 
