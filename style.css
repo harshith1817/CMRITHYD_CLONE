@@ -129,28 +129,140 @@ nav a {
     height: 6.25rem;
 }
 .about{
-    width: 94.95rem;
+    width: 100vw;
     height: 28.888125rem;
     background-color: #feffef;
+    display: flex;
 }
 .about img{
     width:46.225rem;
     height: 22.6381rem;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+    padding-left: 1rem;
+    display: flex;
 }
-.imageabout{
-    width: 94.95rem;
-    height: 23.88825rem;
-}
-
-.about h1{
+.content h1{
     font-family: "Titillium Web", sans-serif;
     color: #013b63;
     font-size: 2.5rem;
 }
 .content{
-    width: 94.95rem;
-    height: 23.88825rem;
+    width:46.225rem;
+    height: 22.6381rem;
+    padding: 1rem;
+}
+.content p{
+    color: #020101;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.bottom{
+    background-color: #f5f5f5;
+}
+.clgrankings{
+    display: flex;
+
+}
+.clgrankings div{
+    width: 13.563125rem;
+    height: 20.795625rem;
     padding: 0.625rem;
+    text-align: center;
+}
+.clgrankings img{
+    align-items: center;
+    padding-top: 2rem;
+}
+.clgrankings p{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    color: #5e5d5d;
+    padding-bottom: 2rem;
+}
+.nirf{
+    padding-top: 8rem;
+}
+.clgrankings button{
+    width : fit-content;
+    height : 2.45rem;   
+    border-radius: 0.25rem;
+    padding : 0.75rem 1.5rem;
+    background-color:#61ce70;
+    color : #fff;
+    font-weight: 500;
+    font-size: 0.9375rem;
+    border: none;
+    font-family: "Roboto", sans-serif;
+}
+.pg{
+    font-family: "Titillium Web", sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #013b63;
+    margin: 0%;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.pgdiv{
+    width: 100vw;
+    background-color: #f5f5f5;
+}
+.pgcourses{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pgcourses div{
+    width: 26rem;
+    height: 30.399375rem;
+    padding-left: 0.5rem;
+    padding: 2rem;
+    background-color: #f5f5f5;
+    text-align: center;
+    border: #020101;
+    box-shadow: 1px 5px 1.5rem #a2a2a2;
+}
+
+.pgcourses div:hover {
+    box-shadow: 1px 5px 3rem #a2a2a2;
+}
+
+.pgcourses img{
+    padding-left: 0.5rem;
+    height: 15.625rem;
+}
+.mba{
+    width: 26rem;
+    padding-left: 0rem;
+}
+.pgcourses h4{
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.pgcourses h4,h3{
+  padding-bottom: 1.428571428571429rem;
+}
+.pgcourses p{
+    color: #7a7a7a;
+}
+.pgcourses h3{
+    padding-top: 1rem;
+    color: #3a3a3a;
+    font-size: 1.5625rem;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.pgcourses button{
+    width: 28rem;
+    height: 2rem;
+    background-color: #f60;
+    border: none;
+    color: #fff;
+}
+.pgcourses button:hover{
+    opacity: 0.7;
+}
+.pgcourses span{
+    padding-left: 10rem;
+    padding-right: 12rem;
 }
