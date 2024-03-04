@@ -1,8 +1,15 @@
+* {
+    overflow: hidden;
+}
+
+
 body {
     margin : 0;
     padding : 0;
     width : 100vw;
     height : 100vh;
+    overflow-y : auto;
+    overflow-x: hidden;
 }
 
 .widget {
@@ -12,6 +19,7 @@ body {
     display : flex;
     align-items: center;
     padding-left: 2rem;
+    flex-wrap: wrap;
 }
 
 .widget p,a {
@@ -34,6 +42,7 @@ body {
     width : 100vw;
     height : 9.45rem;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .buttons {
@@ -265,4 +274,50 @@ nav a {
 .pgcourses span{
     padding-left: 10rem;
     padding-right: 12rem;
+}
+
+
+/******************************************************Responsivness*************************************************/
+
+@media (max-width : 1440px) {
+    .section {
+        height : 14rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttons {
+        height : 3rem;
+        width : 27rem;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin : 0;
+    }
+}
+
+@media (max-width : 1000px) {
+    .section {
+        height : 18rem;
+    }
+}
+
+@media (max-width : 830px) {
+    .widget {
+        height : 5rem;
+        align-items : center ;
+    }
+
+    .widget p,a {
+        margin : 0;
+    }
+}
+
+@media (max-width : 700px) {
+    .section .logo {
+        transform: scale(0.7);
+    }
+
+    .section .ranks {
+        transform : scale(0.75);
+    }
 }
